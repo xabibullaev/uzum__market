@@ -13,7 +13,7 @@ function renderProducts(array) {
     elSubPrice.textContent = product.subprice * 500 + ".00" + "сум";
     elPrice.textContent = product.price * 100 + ".00" + "сум";
     elRating.textContent = product.rating;
-    elImg.src = product.image;
+    elImg.textContent = product.image;
     elBtnBasket.title = `${product.name}`;
 
     elTopProducts.appendChild(newProduct);
