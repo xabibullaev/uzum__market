@@ -51,15 +51,6 @@
     border-radius: 8px;
   }
 
-  &__item:hover &__img {
-    transform: scale(1.02);
-    box-shadow: 0 0 10px #ebebeb;
-  }
-
-  &__item:hover &__imagebox {
-    border-radius: 8px 8px 3px 3px;
-  }
-
   &__box {
     height: 148.8px;
     padding: 12px 7px 7px;

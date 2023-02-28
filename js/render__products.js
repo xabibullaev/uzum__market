@@ -9,11 +9,11 @@ function renderProducts(array) {
     const elSubPrice = findElement(".products__subprice", newProduct);
     const elBtnBasket = newProduct.querySelector("#button-basket");
 
+    elImg.src = product.image;
     elTitle.textContent = product.name;
     elSubPrice.textContent = product.subprice * 500 + ".00" + "сум";
     elPrice.textContent = product.price * 100 + ".00" + "сум";
     elRating.textContent = product.rating;
-    elImg.textContent = product.image;
     elBtnBasket.title = `${product.name}`;
 
     elTopProducts.appendChild(newProduct);

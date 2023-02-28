@@ -576,13 +576,6 @@ li {
   width: 232px;
   border-radius: 8px;
 }
-.products__item:hover .products__img {
-  transform: scale(1.02);
-  box-shadow: 0 0 10px #ebebeb;
-}
-.products__item:hover .products__imagebox {
-  border-radius: 8px 8px 3px 3px;
-}
 .products__box {
   height: 148.8px;
   padding: 12px 7px 7px;

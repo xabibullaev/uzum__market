@@ -1,8 +1,8 @@
 let uzum = [
   {
-    name: "Gazlangan ichimlik Pepsi, 1 l + Mountain Dew, 1l, 1+1",
-    image: "./assets/images/cfga8ht40v9uauhi13f0.jpg",
-    rating: "5.0 (67 baho)",
+    name: "зузыш",
+    image: "../img/cfga8ht40v9uauhi13f0.jpg",
+    rating: "5.0 ( 10 оценка)",
     price: "90",
     subprice: "44",
     id: "0",
@@ -11,7 +11,7 @@ let uzum = [
     name: "Albert Mills",
     image:
       "https://images.uzum.uz/cfg8h2540v9uauhi0r2g/t_product_540_high.jpg#1676296988356",
-    rating: "3",
+    rating: "3 (18 оценка)",
     price: "383.00",
     subprice: "222.00",
     id: "1",
@@ -20,7 +20,7 @@ let uzum = [
     name: "Tim McDermott",
     image:
       "https://images.uzum.uz/cfg8ctqdjr2oefduj87g/t_product_540_high.jpg#1676296988361",
-    rating: "5",
+    rating: "5 (54 оценка)",
     price: "281.00",
     subprice: "419.00",
     id: "2",
@@ -29,7 +29,7 @@ let uzum = [
     name: "Alfred Schamberger",
     image:
       "https://images.uzum.uz/cfhj28qdjr2oefduooj0/t_product_540_high.jpg#1676296988359",
-    rating: "8",
+    rating: "8  (18 оценка)",
     price: "555.00",
     subprice: "581.00",
     id: "3",
@@ -38,7 +38,7 @@ let uzum = [
     name: "Jessica Sipes",
     image:
       "https://images.uzum.uz/cfg8cukvutv7dbm92b90/t_product_540_high.jpg#1676296988357",
-    rating: "7",
+    rating: "7 (18 оценка)",
     price: "762.00",
     subprice: "822.00",
     id: "4",
@@ -46,7 +46,7 @@ let uzum = [
   {
     name: "Martha D'Amore",
     image: "https://images.uzum.uz/cbsuoucff5b7qe6p6ecg/t_product_540_high.jpg",
-    rating: "6",
+    rating: "6 (18 оценка)",
     price: "157.00",
     subprice: "286.00",
     id: "5",
@@ -55,7 +55,7 @@ let uzum = [
     name: "Debra Dickinson",
     image:
       "https://images.umarket.uz/cc4vs5uha88fjme8spd0/t_product_540_high.jpg",
-    rating: "4",
+    rating: "4 (18 оценка)",
     price: "963.00",
     subprice: "177.00",
     id: "6",
@@ -64,7 +64,7 @@ let uzum = [
     name: "Dolores Bode",
     image:
       "https://images.umarket.uz/cc9ju7eha888i5ell1m0/t_product_540_high.jpg",
-    rating: "5",
+    rating: "5 (18 оценка)",
     price: "192.00",
     subprice: "253.00",
     id: "7",
@@ -72,7 +72,7 @@ let uzum = [
   {
     name: "Sonya Erdman",
     image: "https://images.uzum.uz/cd1acen0tgqvlm57udh0/t_product_540_high.jpg",
-    rating: "9",
+    rating: "9  (18 оценка)",
     price: "399.00",
     subprice: "87.00",
     id: "8",
@@ -80,7 +80,7 @@ let uzum = [
   {
     name: "Orlando White",
     image: "https://images.uzum.uz/ccr7l470tgqvlm57lsb0/t_product_540_high.jpg",
-    rating: "7",
+    rating: "7 (18 оценка)",
     price: "194.00",
     subprice: "699.00",
     id: "9",
@@ -88,7 +88,7 @@ let uzum = [
   {
     name: "Ms. Lela Cole",
     image: "https://images.uzum.uz/cfg8cdidjr2oefduj820/t_product_540_high.jpg",
-    rating: "3",
+    rating: "3 (18 оценка)",
     price: "222.00",
     subprice: "596.00",
     id: "10",
@@ -96,7 +96,7 @@ let uzum = [
   {
     name: "Floyd Aufderhar DDS",
     image: "https://images.uzum.uz/cfg8bmadjr2oefduj7s0/t_product_540_high.jpg",
-    rating: "4",
+    rating: "4 (18 оценка)",
     price: "244.00",
     subprice: "847.00",
     id: "11",
@@ -104,7 +104,7 @@ let uzum = [
   {
     name: "Alexis Cormier",
     image: "https://images.uzum.uz/cfds8nkegl7uds7spc3g/t_product_540_high.jpg",
-    rating: "7",
+    rating: "7 (18 оценка)",
     price: "479.00",
     subprice: "846.00",
     id: "12",
@@ -112,7 +112,7 @@ let uzum = [
   {
     name: "Marguerite Swift",
     image: "https://images.uzum.uz/cfaeu30v1htd23almvkg/t_product_540_high.jpg",
-    rating: "9",
+    rating: "9 (18 оценка)",
     price: "882.00",
     subprice: "582.00",
     id: "13",
