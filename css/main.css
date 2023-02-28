@@ -315,7 +315,7 @@ template {
   box-sizing: border-box;
 }
 
-.container {
+.cantainer {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
@@ -435,6 +435,18 @@ li {
   font-family: Inter, sans-serif;
   font-weight: 500 !important;
 }
+.header__login-page {
+  font-family: Inter, sans-serif;
+  color: black;
+}
+.header__favourite-page {
+  font-family: Inter, sans-serif;
+  color: black;
+}
+.header__basket-page {
+  font-family: Inter, sans-serif;
+  color: black;
+}
 .header__favourite {
   margin-left: 30px;
   display: flex;
@@ -531,6 +543,7 @@ li {
   display: flex;
   align-items: center;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 .sale__link {
   font-family: Inter, sans-serif;
@@ -636,6 +649,10 @@ li {
 }
 .products__btnbasket:hover {
   background: rgba(0, 0, 0, 0.0470588235);
+}
+
+.after::after {
+  color: #000;
 }
 
 /*# sourceMappingURL=main.css.map */

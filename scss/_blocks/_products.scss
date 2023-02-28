@@ -9,6 +9,7 @@
     font-weight: 700;
     color: black;
   }
+  margin-bottom: 50px;
 }
 .products {
   position: relative;
@@ -122,4 +123,7 @@
   &__btnbasket:hover {
     background: #0000000c;
   }
+}
+.after::after {
+  color: #000;
 }

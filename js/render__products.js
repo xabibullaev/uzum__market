@@ -11,8 +11,8 @@ function renderProducts(array) {
 
     elImg.src = product.image;
     elTitle.textContent = product.name;
-    elSubPrice.textContent = product.subprice * 500 + ".00" + "сум";
-    elPrice.textContent = product.price * 100 + ".00" + "сум";
+    elSubPrice.textContent = product.subprice * 500 + "сум";
+    elPrice.textContent = product.price * 100 + "сум";
     elRating.textContent = product.rating;
     elBtnBasket.title = `${product.name}`;
 
