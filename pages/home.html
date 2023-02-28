@@ -282,71 +282,7 @@
                 ></path>
               </svg>
             </div>
-            <ul class="products__list">
-              <li class="top-products__item">
-                <div class="top-products__imagebox">
-                  <img
-                    class="top-products__img"
-                    src="../img/cfga8ht40v9uauhi13f0.jpg"
-                    width="232"
-                    alt="cocola"
-                  />
-                </div>
-                <div class="top-products__box">
-                  <p class="top-products__name">
-                    Gazlangan ichimlik Pepsi, 1 l + Mountain Dew, 1l, 1+1
-                  </p>
-                  <p class="top-products__rating">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="15"
-                      height="15"
-                      viewBox="0 0 18 18"
-                      fill="none"
-                    >
-                      <path
-                        d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
-                        fill="#F5A623"
-                      />
-                    </svg>
-                    <span>5.0 (67 baho)</span>
-                  </p>
-                  <p class="top-products__monthly">
-                    <mark>1 080 so'm/oyiga</mark>
-                  </p>
-                  <div class="top-products__bottom">
-                    <div class="top-products__prices">
-                      <p class="top-products__subprice">22 000 so'm</p>
-                      <p class="top-products__price">9 000 so'm</p>
-                    </div>
-                    <button
-                      title="rr"
-                      id="button-basket"
-                      class="top-products__btnbasket"
-                    >
-                      <svg
-                        data-v-56571d0e=""
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="ui-icon add-cart-icon"
-                      >
-                        <path
-                          d="M8 10V8H6V12.5C6 12.7761 5.77614 13 5.5 13C5.22386 13 5 12.7761 5 12.5V7H8C8 4.59628 9.95227 3 12 3C14.0575 3 16 4.70556 16 7H19V19.5C19 20.3284 18.3284 21 17.5 21H12.5C12.2239 21 12 20.7761 12 20.5C12 20.2239 12.2239 20 12.5 20H17.5C17.7761 20 18 19.7761 18 19.5V8H16V10H15V8H9V10H8ZM12 4C10.4477 4 9 5.20372 9 7H15C15 5.29444 13.5425 4 12 4Z"
-                          fill="black"
-                        ></path>
-                        <path
-                          d="M7.5 14C7.77614 14 8 14.2239 8 14.5V17H10.5C10.7761 17 11 17.2239 11 17.5C11 17.7761 10.7761 18 10.5 18H8V20.5C8 20.7761 7.77614 21 7.5 21C7.22386 21 7 20.7761 7 20.5V18H4.5C4.22386 18 4 17.7761 4 17.5C4 17.2239 4.22386 17 4.5 17H7V14.5C7 14.2239 7.22386 14 7.5 14Z"
-                          fill="black"
-                        ></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </li>
-            </ul>
+            <ul class="products__list"></ul>
           </div>
         </div>
       </section>
@@ -356,7 +292,65 @@
 
     <!-- template__part -->
     <div class="container">
-      <template id="product-template"> </template>
+      <template id="product-template">
+        <li class="products__item">
+          <div class="products__imagebox">
+            <img
+              class="products__img"
+              src="../img/cfga8ht40v9uauhi13f0.jpg"
+              width="232"
+              alt="cocola"
+            />
+          </div>
+          <div class="products__box">
+            <p class="products__name"></p>
+            <p class="products__rating">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 18 18"
+                fill="none"
+              >
+                <path
+                  d="M9 12.9525L13.635 15.75L12.405 10.4775L16.5 6.93L11.1075 6.4725L9 1.5L6.8925 6.4725L1.5 6.93L5.595 10.4775L4.365 15.75L9 12.9525Z"
+                  fill="#F5A623"
+                />
+              </svg>
+              <span>5.0 (20 оценка)</span>
+            </p>
+            <p class="products__monthly">
+              <mark>1 080 сум/мес</mark>
+            </p>
+            <div class="products__bottom">
+              <div class="products__prices">
+                <p class="products__subprice">22 000 сум</p>
+                <p class="products__price">9 000 сум</p>
+              </div>
+              <button title="rr" id="button-basket" class="products__btnbasket">
+                <svg
+                  data-v-56571d0e=""
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="ui-icon add-cart-icon"
+                >
+                  <path
+                    d="M8 10V8H6V12.5C6 12.7761 5.77614 13 5.5 13C5.22386 13 5 12.7761 5 12.5V7H8C8 4.59628 9.95227 3 12 3C14.0575 3 16 4.70556 16 7H19V19.5C19 20.3284 18.3284 21 17.5 21H12.5C12.2239 21 12 20.7761 12 20.5C12 20.2239 12.2239 20 12.5 20H17.5C17.7761 20 18 19.7761 18 19.5V8H16V10H15V8H9V10H8ZM12 4C10.4477 4 9 5.20372 9 7H15C15 5.29444 13.5425 4 12 4Z"
+                    fill="black"
+                  ></path>
+                  <path
+                    d="M7.5 14C7.77614 14 8 14.2239 8 14.5V17H10.5C10.7761 17 11 17.2239 11 17.5C11 17.7761 10.7761 18 10.5 18H8V20.5C8 20.7761 7.77614 21 7.5 21C7.22386 21 7 20.7761 7 20.5V18H4.5C4.22386 18 4 17.7761 4 17.5C4 17.2239 4.22386 17 4.5 17H7V14.5C7 14.2239 7.22386 14 7.5 14Z"
+                    fill="black"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+      </template>
     </div>
     <!-- template__part--end -->
 
