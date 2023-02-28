@@ -1,6 +1,6 @@
 let uzum = [
   {
-    name: "зузыш",
+    name: "pepsi",
     image: "../img/cfga8ht40v9uauhi13f0.jpg",
     rating: "5.0 ( 10 оценка)",
     price: "90",
@@ -8,7 +8,7 @@ let uzum = [
     id: "0",
   },
   {
-    name: "Albert Mills",
+    name: "futbolka",
     image:
       "https://images.uzum.uz/cfg8h2540v9uauhi0r2g/t_product_540_high.jpg#1676296988356",
     rating: "3 (18 оценка)",
@@ -17,7 +17,7 @@ let uzum = [
     id: "1",
   },
   {
-    name: "Tim McDermott",
+    name: "tv",
     image:
       "https://images.uzum.uz/cfg8ctqdjr2oefduj87g/t_product_540_high.jpg#1676296988361",
     rating: "5 (54 оценка)",
@@ -26,7 +26,7 @@ let uzum = [
     id: "2",
   },
   {
-    name: "Alfred Schamberger",
+    name: "yog`",
     image:
       "https://images.uzum.uz/cfhj28qdjr2oefduooj0/t_product_540_high.jpg#1676296988359",
     rating: "8  (18 оценка)",
@@ -35,7 +35,7 @@ let uzum = [
     id: "3",
   },
   {
-    name: "Jessica Sipes",
+    name: "chang yutgich",
     image:
       "https://images.uzum.uz/cfg8cukvutv7dbm92b90/t_product_540_high.jpg#1676296988357",
     rating: "7 (18 оценка)",
@@ -282,7 +282,7 @@ let uzum = [
     id: "33",
   },
   {
-    name: "Bernard Bechtelar",
+    name: "",
     image: "https://loremflickr.com/232/310/food",
     rating: "7",
     price: "682.00",
@@ -290,7 +290,7 @@ let uzum = [
     id: "34",
   },
   {
-    name: "Rudy Konopelski",
+    name: "",
     image: "https://loremflickr.com/232/310/food",
     rating: "3",
     price: "608.00",
@@ -298,7 +298,7 @@ let uzum = [
     id: "35",
   },
   {
-    name: "Martha Waters",
+    name: "",
     image: "https://loremflickr.com/232/310/food",
     rating: "4",
     price: "603.00",
