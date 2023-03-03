@@ -12,6 +12,14 @@
   margin-bottom: 50px;
 }
 .products {
+  &__like-btn {
+    position: absolute;
+    top: 1px;
+    border: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+  }
   position: relative;
   padding: 56px 0 40px;
 
@@ -47,6 +55,7 @@
   }
 
   &__imagebox {
+    position: relative;
     overflow: hidden;
     width: 232px;
     border-radius: 8px;

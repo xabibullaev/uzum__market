@@ -317,7 +317,6 @@ template {
 
 .cantainer {
   max-width: 1240px;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -557,6 +556,14 @@ li {
   position: relative;
   padding: 56px 0 40px;
 }
+.products__like-btn {
+  position: absolute;
+  top: 1px;
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
 .products__link {
   font-size: 28px;
   font-weight: 700;
@@ -585,6 +592,7 @@ li {
   cursor: pointer;
 }
 .products__imagebox {
+  position: relative;
   overflow: hidden;
   width: 232px;
   border-radius: 8px;
