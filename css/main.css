@@ -552,17 +552,24 @@ li {
   color: black;
 }
 
-.products {
-  position: relative;
-  padding: 56px 0 40px;
-}
-.products__like-btn {
+.products__like-button {
   position: absolute;
-  top: 1px;
+  top: 13px;
+  right: 12px;
+  z-index: 10;
+  background: transparent;
   border: none;
-  background-color: transparent;
-  width: 20px;
-  height: 20px;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all 0.3s ease-in-out;
+}
+.products__like-button:hover {
+  opacity: 1;
+}
+.products__like-button svg, .products__like-button svg path:first-child {
+  fill: #8967f0;
+  pointer-events: none;
 }
 .products__link {
   font-size: 28px;
@@ -584,6 +591,7 @@ li {
   row-gap: 40px;
 }
 .products__item {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 232px;
@@ -592,10 +600,12 @@ li {
   cursor: pointer;
 }
 .products__imagebox {
-  position: relative;
   overflow: hidden;
   width: 232px;
   border-radius: 8px;
+  transition: all 0.3s ease;
+  z-index: 2;
+  background-color: #fff;
 }
 .products__box {
   height: 148.8px;
